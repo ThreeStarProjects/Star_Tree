@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "Three Star Projects",
+    "handle": "@threestarprojects",
+    "bio": "Building cool things, one star at a time. 🚀",
+    "avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ThreeStar",
+    "backgroundColor": "#FF6B5B",
+    "backgroundGradient": "linear-gradient(180deg, #FF6B5B 0%, #FF8C42 100%)",
+    "textColor": "#FFFFFF"
+  },
+  "socialLinks": [
+    { "platform": "github", "url": "https://github.com/ThreeStarProjects" },
+    { "platform": "twitter", "url": "https://twitter.com/" },
+    { "platform": "instagram", "url": "https://instagram.com/" },
+    { "platform": "linkedin", "url": "https://linkedin.com/" },
+    { "platform": "youtube", "url": "https://youtube.com/" }
+  ],
+  "spotlight": {
+    "title": "Spotlight",
+    "card": {
+      "title": "Featured: Star Tree launch post",
+      "url": "https://github.com/ThreeStarProjects/Star_Tree",
+      "emoji": "🌟"
+    }
+  },
+  "recentPosts": [
+    { "id": 1, "title": "Check out what's new with Star Tree", "url": "https://github.com/ThreeStarProjects/Star_Tree", "emoji": "🎉" },
+    { "id": 2, "title": "The 2026 Indie Builder Report", "url": "https://example.com/report", "emoji": "📊" },
+    { "id": 3, "title": "Top 25 Weekend Projects — Winners!", "url": "https://example.com/winners", "emoji": "🏆" },
+    { "id": 4, "title": "How to deploy to Vercel in 60 seconds", "url": "https://vercel.com/docs", "emoji": "⚡" },
+    { "id": 5, "title": "Join the newsletter", "url": "https://example.com/newsletter", "emoji": "📬" },
+    { "id": 6, "title": "Book a call", "url": "https://cal.com/", "emoji": "📞" },
+    { "id": 7, "title": "Say hello", "url": "mailto:hello@example.com", "emoji": "👋" }
+  ]
+}
