@@ -20,6 +20,17 @@ export function ProfileHeader({ profile, socialLinks }: Props) {
         {profile.name}
       </h1>
 
+      {profile.website && (
+        <a
+          href={profile.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-block text-sm font-medium text-[#1F4E79] bg-white border border-[#1F4E79]/20 rounded-full px-3 py-1 shadow-sm hover:text-[#F47C2C] hover:border-[#F47C2C] transition-colors"
+        >
+          {profile.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+        </a>
+      )}
+
       <SocialLinks links={socialLinks} />
     </header>
   );

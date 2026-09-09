@@ -19,6 +19,7 @@ export interface Profile {
   name: string;
   handle: string;
   bio: string;
+  website?: string;
   avatar: string;
   backgroundColor: string;
   backgroundGradient?: string;
