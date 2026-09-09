@@ -43,7 +43,7 @@ export function SocialLinks({ links }: { links: SocialLink[] }) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={label}
-            className="p-2 rounded-full transition-transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+            className="p-2 rounded-full transition-transform hover:scale-110 hover:text-[#F47C2C] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
           >
             <Icon className="w-6 h-6" />
           </a>

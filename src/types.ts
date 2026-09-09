@@ -25,17 +25,6 @@ export interface Profile {
   textColor: string;
 }
 
-export interface SpotlightCardData {
-  title: string;
-  url: string;
-  emoji?: string;
-}
-
-export interface Spotlight {
-  title: string;
-  card: SpotlightCardData;
-}
-
 export interface Post {
   id: number | string;
   title: string;
@@ -46,6 +35,5 @@ export interface Post {
 export interface Config {
   profile: Profile;
   socialLinks: SocialLink[];
-  spotlight: Spotlight;
   recentPosts: Post[];
 }

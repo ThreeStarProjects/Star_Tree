@@ -1,35 +1,28 @@
 {
   "profile": {
     "name": "Three Star Projects",
-    "handle": "@threestarprojects",
-    "bio": "Building cool things, one star at a time. 🚀",
-    "avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ThreeStar",
-    "backgroundColor": "#FF6B5B",
-    "backgroundGradient": "linear-gradient(180deg, #FF6B5B 0%, #FF8C42 100%)",
+    "handle": "",
+    "bio": "",
+    "avatar": "/logo.png",
+    "backgroundColor": "#1F4E79",
+    "backgroundGradient": "linear-gradient(180deg, #1F4E79 0%, #2C7DA0 100%)",
     "textColor": "#FFFFFF"
   },
   "socialLinks": [
-    { "platform": "github", "url": "https://github.com/ThreeStarProjects" },
-    { "platform": "twitter", "url": "https://twitter.com/" },
-    { "platform": "instagram", "url": "https://instagram.com/" },
-    { "platform": "linkedin", "url": "https://linkedin.com/" },
-    { "platform": "youtube", "url": "https://youtube.com/" }
+    { "platform": "facebook", "url": "https://www.facebook.com/threestarprojects/" },
+    { "platform": "instagram", "url": "https://www.instagram.com/three_star_projects/" },
+    { "platform": "linkedin", "url": "https://www.linkedin.com/in/girishpanchal/" },
+    { "platform": "youtube", "url": "https://youtube.com/@threestarprojects" }
   ],
-  "spotlight": {
-    "title": "Spotlight",
-    "card": {
-      "title": "Featured: Star Tree launch post",
-      "url": "https://github.com/ThreeStarProjects/Star_Tree",
-      "emoji": "🌟"
-    }
-  },
   "recentPosts": [
-    { "id": 1, "title": "Check out what's new with Star Tree", "url": "https://github.com/ThreeStarProjects/Star_Tree", "emoji": "🎉" },
-    { "id": 2, "title": "The 2026 Indie Builder Report", "url": "https://example.com/report", "emoji": "📊" },
-    { "id": 3, "title": "Top 25 Weekend Projects — Winners!", "url": "https://example.com/winners", "emoji": "🏆" },
-    { "id": 4, "title": "How to deploy to Vercel in 60 seconds", "url": "https://vercel.com/docs", "emoji": "⚡" },
-    { "id": 5, "title": "Join the newsletter", "url": "https://example.com/newsletter", "emoji": "📬" },
-    { "id": 6, "title": "Book a call", "url": "https://cal.com/", "emoji": "📞" },
-    { "id": 7, "title": "Say hello", "url": "mailto:hello@example.com", "emoji": "👋" }
+    { "id": 1, "title": "Raise a Ticket", "url": "https://script.google.com/a/macros/3starprojects.com/s/AKfycbz7rfY_VIgm93PkSRo-QSH9B5mbdrN7JmQUOHWlvE8IWaivSlfZBB9-yErsMwfhP52eEA/exec", "emoji": "🎫" },
+    { "id": 2, "title": "Expense & Advance Form", "url": "https://script.google.com/macros/s/AKfycbyKZ043r9xKyFYh1EJPcw0oXDRyuosBoYyD2SuHcTxBIIrXkjuuW_1eihttHhasXUPnKw/exec?page=expense", "emoji": "💰" },
+    { "id": 3, "title": "Leave Application", "url": "https://cbxit.in/b2da9", "emoji": "🌴" },
+    { "id": 4, "title": "Inventory Management System (IMS)", "url": "https://docs.google.com/spreadsheets/d/1CglvPxUWZnIHNeToGEDz8-Xj3eNfvaF351j_ogpRTgk/edit?usp=sharing", "emoji": "📦" },
+    { "id": 5, "title": "Project Management System (PMS)", "url": "https://docs.google.com/spreadsheets/d/1CH5zdG67PmThFnnSjguGVcsCV7JQXmZ06slKMRaOn1E/edit?usp=sharing", "emoji": "📊" },
+    { "id": 6, "title": "MCGM Work Entry Form", "url": "https://script.google.com/a/macros/3starprojects.com/s/AKfycbxGMMThnywDaR8HD3h74rdHODvpt3KE7PczZhtgOsOOZq7tzrp3x8yrikxKghPqOyHy/exec", "emoji": "🏗️" },
+    { "id": 7, "title": "Employee Detail Form", "url": "https://forms.gle/ft3dJB1KntXNCNzc9", "emoji": "🧑‍💼" },
+    { "id": 8, "title": "Company Profile", "url": "https://drive.google.com/file/d/1kIZ-B7TML9TQSjZH1GjOkHh3WJCgGlXv/view?usp=drive_link", "emoji": "🏢" },
+    { "id": 9, "title": "Document Generator", "url": "https://3-sp-doc-gen.vercel.app/", "emoji": "📄" }
   ]
 }

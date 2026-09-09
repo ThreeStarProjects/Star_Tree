@@ -1,21 +1,28 @@
+import { ArrowUpRight } from 'lucide-react';
 import type { Post } from '../types';
 
-export function PostCard({ post }: { post: Post }) {
+const TILTS = ['-rotate-2', '-rotate-1', 'rotate-1', 'rotate-2', '-rotate-1', 'rotate-1'];
+
+interface Props {
+  post: Post;
+  index: number;
+  hero?: boolean;
+}
+
+export function PostCard({ post, index, hero = false }: Props) {
+  const tilt = TILTS[index % TILTS.length];
   return (
     <a
       href={post.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block w-full bg-white text-neutral-900 rounded-2xl border-[3px] border-neutral-900 px-4 py-3 shadow-[0_4px_0_rgb(23,23,23)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_6px_0_rgb(23,23,23)] active:translate-y-0 active:shadow-[0_2px_0_rgb(23,23,23)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+      className={`group flex h-full items-center justify-between gap-3 rounded-2xl border-[3px] border-[#1F4E79] bg-white text-[#1F4E79] px-4 py-4 shadow-[0_4px_0_#1F4E79] transform ${tilt} transition-all duration-300 ease-out hover:rotate-0 hover:-translate-y-1 hover:border-[#F47C2C] hover:shadow-[0_8px_0_#F47C2C] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80 ${hero ? 'sm:min-h-[110px]' : ''}`}
     >
-      <div className="flex items-center gap-3">
-        {post.emoji && (
-          <span className="text-xl" aria-hidden>
-            {post.emoji}
-          </span>
-        )}
-        <span className="text-base font-semibold leading-snug">{post.title}</span>
-      </div>
+      <span className={`font-semibold leading-snug ${hero ? 'text-lg md:text-xl' : 'text-base'}`}>
+        {post.emoji && <span aria-hidden className="mr-2">{post.emoji}</span>}
+        {post.title}
+      </span>
+      <ArrowUpRight className="shrink-0 w-5 h-5 text-[#F47C2C] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
     </a>
   );
 }
